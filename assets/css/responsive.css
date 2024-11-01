@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .nav__logo-img {
+        width: 70px;
+    }
+
+    .nav__auth {
+        display: none;
+    }
+
+    .nav__mobile-menu {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .main__hero-title span {
+        display: none;
+    }
+
+    .main__hero-description {
+        display: none;
+    }
+
+    .main__hero-mobile-description {
+        display: block;
+    }
+
+    .main__features {
+        grid-template-columns: 1fr;
+    }
+}
+

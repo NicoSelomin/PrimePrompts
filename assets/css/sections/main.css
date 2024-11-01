@@ -1,6 +1,7 @@
 .main {
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .main__container {
@@ -39,6 +40,7 @@
   border-radius: 10px;
   transition: all 300ms;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .main__hero-button:hover {
@@ -70,8 +72,14 @@
   font-size: var(--subheadline-font-size);
 }
 
-.main__feature-description {
-  font-size: var(--body-font-size);
+.main__hero-description,
+.main__hero-mobile-description {
+  font-size: var(--subheadline-font-size);
+  font-weight: var(--subheadline-font-weight);
+}
+
+.main__hero-mobile-description {
+  display: none;
 }
 
 .main__feature--add {

@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 100px;
+  height: 90px;
   border-bottom: 2px solid rgb(var(--primary-color), 0.2);
   display: flex;
   justify-content: center;
@@ -57,4 +57,8 @@
 
 .nav__auth-button--signup:hover {
   background-color: rgb(var(--primary-color), 0.8);
+}
+
+.nav__mobile-menu {
+  display: none;
 }
